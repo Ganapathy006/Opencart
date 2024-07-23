@@ -1,0 +1,18 @@
+2024-07-23 11:31:00 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\gaganapa\eclipse-workspace\Opencart\master.xml] otherwise TestNG may fail or not work as expected.
+2024-07-23 11:31:05 INFO  TC_001_AccountRegistrationTest:76 - ***Test Executing in chrome browser***
+2024-07-23 11:31:07 INFO  TC_001_AccountRegistrationTest:15 - ***Starting TC_001_AccountRegistrationTest***
+2024-07-23 11:31:07 INFO  TC_001_AccountRegistrationTest:21 - Clicked on MyAccount Link..
+2024-07-23 11:31:07 INFO  TC_001_AccountRegistrationTest:23 - Clicked on Register Link..
+2024-07-23 11:31:07 INFO  TC_001_AccountRegistrationTest:25 - Providing Customer details..
+2024-07-23 11:31:09 INFO  TC_001_AccountRegistrationTest:38 - Validating expected message..
+2024-07-23 11:31:09 INFO  TC_001_AccountRegistrationTest:60 - Test passed
+2024-07-23 11:31:09 INFO  TC_001_AccountRegistrationTest:70 - ***Finished TC_001_AccountRegistrationTest***
+2024-07-23 11:31:19 INFO  TC_002_LoginTest:80 - ***Test Executing in edge browser***
+2024-07-23 11:31:21 INFO  TC_002_LoginTest:18 - ***Starting TC_002_LoginTest***
+2024-07-23 11:31:21 INFO  TC_002_LoginTest:19 - capturing application debug logs
+2024-07-23 11:31:21 INFO  TC_002_LoginTest:24 - Clicked on MyAccount..
+2024-07-23 11:31:21 INFO  TC_002_LoginTest:26 - Clicked on Login..
+2024-07-23 11:31:21 INFO  TC_002_LoginTest:29 - Entering valid username and password..
+2024-07-23 11:31:22 INFO  TC_002_LoginTest:33 - Clicked on Login button..
+2024-07-23 11:31:22 INFO  TC_002_LoginTest:36 - Verifying myAccount..
+2024-07-23 11:31:22 INFO  TC_002_LoginTest:46 - ***Finished  TC_002_LoginTest***
