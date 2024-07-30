@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.logging.log4j.core.message.ExtendedThreadInfoFactory;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -33,7 +34,7 @@ public class ExportReportManager implements ITestListener {
 		 * Date(); String timestamp=df.format(dt);
 		 */
 
-		String timestamp = new SimpleDateFormat("yyyy.MM.dd HH.mm.ss").format(new Date());
+		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		repName = "Test-Report-" + timestamp + ".html";
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);
 		sparkReporter.config().setDocumentTitle("OpenCart Automation Report");
